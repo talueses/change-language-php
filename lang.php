@@ -9,13 +9,13 @@ $idioma = substr($_SERVER["HTTP_ACCEPT_LANGUAGE"], 0,2);
 	}
     switch($idioma) { //Se carga el archivo que contiene el idioma según la varible obtenida antes
 		case "es" : //es = español
-			include("lang/lang-es.php"); //Se incluye el archivo en español.
+			include("path/lang-es.php"); //Se incluye el archivo en español.
 		break;
 		case "en" : //en = ingles
-			include("lang/lang-en.php");
+			include("path/lang-en.php");
 		break;
 		default :
-			include("lang/lang-es.php"); //Se incluye el archivo en inglés.
+			include("path/lang-es.php"); //Se incluye el archivo en inglés.
 		break;
 	}
 //print($idioma); //Acá se puede ver el valor obtenido.
