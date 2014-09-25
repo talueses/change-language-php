@@ -1,4 +1,7 @@
-change-language-php
+Change language php
 ===================
 
-Script for read language of browser
+Script for read language of browser and switch.
+
+($_SERVER["HTTP_ACCEPT_LANGUAGE"] firts load. 
+
